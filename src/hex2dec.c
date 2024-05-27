@@ -14,6 +14,7 @@ int main(int argc, char** argv)
             {
                 tmp += digit - '0';
             }
+            
             else if ((digit >= 'A' && digit <= 'F') || (digit >= 'a' && digit <= 'f'))
             {
                 if (digit > 70)
